@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RazorpayOrderProcessing.BaseClass"/>
+      <class name="RazorpayOrderProcessing.buyerCheckoutRpay"/>
+      <class name="RazorpayOrderProcessing.FullFillingOrder"/>
+      <class name="RazorpayOrderProcessing.BuyerReturning"/>
+      <class name="RazorpayOrderProcessing.adminApproval"/>
+      <class name="RazorpayOrderProcessing.sellerApproval_Fullfill"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

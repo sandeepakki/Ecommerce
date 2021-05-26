@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="RazorpayOrderProcessing.BuyerReturning">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="confirming"/>
+          <include name="testReturn"/>
+          <include name="buyerlogin"/>
+        </methods>
+      </class> <!-- RazorpayOrderProcessing.BuyerReturning -->
+      <class name="RazorpayOrderProcessing.FullFillingOrder">
+        <methods>
+          <include name="sellerlogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSellerFullfillment"/>
+          <include name="adminDeliveryConfirm"/>
+        </methods>
+      </class> <!-- RazorpayOrderProcessing.FullFillingOrder -->
+      <class name="RazorpayOrderProcessing.adminApproval">
+        <methods>
+          <include name="setUp"/>
+          <include name="adminlogin"/>
+          <include name="submit"/>
+          <include name="tearDown"/>
+          <include name="testReturnApprove"/>
+        </methods>
+      </class> <!-- RazorpayOrderProcessing.adminApproval -->
+      <class name="RazorpayOrderProcessing.buyerCheckoutRpay">
+        <methods>
+          <include name="setUp"/>
+          <include name="HomePage"/>
+          <include name="testCase1"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- RazorpayOrderProcessing.buyerCheckoutRpay -->
+      <class name="RazorpayOrderProcessing.sellerApproval_Fullfill">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testReplaceFullfill"/>
+          <include name="Submit"/>
+          <include name="sellerlogin"/>
+        </methods>
+      </class> <!-- RazorpayOrderProcessing.sellerApproval_Fullfill -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

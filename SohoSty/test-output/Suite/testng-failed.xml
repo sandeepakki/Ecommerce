@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SC_COD_WholeProcess.OrderPlacing">
+        <methods>
+          <include name="testCase3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSCCOD"/>
+          <include name="MyOrderPage"/>
+        </methods>
+      </class> <!-- SC_COD_WholeProcess.OrderPlacing -->
+      <class name="SC_COD_WholeProcess.SellerCancellation">
+        <methods>
+          <include name="Screenshot"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="testSellerCancellation"/>
+        </methods>
+      </class> <!-- SC_COD_WholeProcess.SellerCancellation -->
+      <class name="SC_COD_WholeProcess.AdminCancellation">
+        <methods>
+          <include name="login"/>
+          <include name="Screenshot"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testAdminCancel"/>
+        </methods>
+      </class> <!-- SC_COD_WholeProcess.AdminCancellation -->
+      <class name="SC_COD_WholeProcess.FullfillingOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="testSellerFullfillment"/>
+          <include name="Screenshot"/>
+        </methods>
+      </class> <!-- SC_COD_WholeProcess.FullfillingOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

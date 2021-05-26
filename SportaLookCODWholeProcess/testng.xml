@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CashOnDeliveryProcess.BaseClass"/>
+      <class name="CashOnDeliveryProcess.BuyerCheckoutProcess"/>
+      <class name="CashOnDeliveryProcess.FullfillingOrder"/>
+      <class name="CashOnDeliveryProcess.BuyerReturn"/>
+      <class name="CashOnDeliveryProcess.adminReturnApproves"/>
+      <class name="CashOnDeliveryProcess.SellerApproval_Fullfill"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
